@@ -110,12 +110,15 @@
     <None Include="LedCube.ino">
       <FileType>CppCode</FileType>
     </None>
+    <None Include="Vector\Vector.inl" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Buffer.h" />
     <ClInclude Include="Init.h" />
     <ClInclude Include="RanderAPI.h" />
     <ClInclude Include="RenderObject.h" />
+    <ClInclude Include="Vector\Vector.hpp" />
+    <ClInclude Include="Vertex\Vertex.hpp" />
     <ClInclude Include="__vm\.LedCube.vsarduino.h" />
   </ItemGroup>
   <ItemGroup>

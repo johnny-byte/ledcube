@@ -23,6 +23,7 @@ public:
 	static void Clear();
 	static void Render();
 	static void Display();
+	static void setPixelColor(int x, int y, int z);
 };
 
 
